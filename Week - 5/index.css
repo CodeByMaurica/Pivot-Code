@@ -1,3 +1,22 @@
 body{
     background-color: teal;
 }
+
+header{
+background-color: aqua;
+color:gold;
+text-align: center;
+}
+
+Footer {
+    background-color: beige;
+    color: black;
+    padding: 2px;
+    text-align: center;
+}
+
+.input-div {
+    padding: 4px;
+    margin: 4px;
+    background-color: turquoise;
+}
