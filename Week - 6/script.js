@@ -20,10 +20,10 @@ function loginHandler() {
 function changeText() {
   const changeText = document.getElementById("change-text");
 
-  if (changeText.textContent === "Hello") {
+  if (changeText.textContent === "Hello I am Maurica") {
     changeText.textContent = "Bye!!";
   } else {
-    changeText.textContent = "Hello";
+    changeText.textContent = "Hello I am Maurica";
   }
 }
 
