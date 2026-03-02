@@ -23,7 +23,7 @@
         <label>Name:</label>
         <input type="text" placeholder="Maurica" />
         <label>Email:</label>
-        <input type="text" placeholder="Maurica@yahoo.com" />
+        <input type="text" placeholder="Maurica@Maurica.com" />
     </section>
 
     <button onclick="sayHello()">Click Me</button>
@@ -31,8 +31,23 @@
     <footer>
         <p>Maurica 2026</p>
     </footer> -->
-<input type="text" placeholder="enter name">
-            <script src="script.js"></script>
+    <section>
+        <label class="name-label">Name:</label>
+        <input id="name-Input" type="text" placeholder="enter name" />
+        <br />
+        <label class="email-label">Email:</label>
+        <input id="email-Input" type="text" placeholder="enter email" />
+        <br />
+        <button onclick="loginHandler()">Login</button>
+            </section>
+
+            <section>
+                <P id="change-text">Hello I am Maurica</P>
+                <button onclick="changeText()">Change Text</button>
+                <button onclick="changeColor ()">Change Text Color</button>
+            </section>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
