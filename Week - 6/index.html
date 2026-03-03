@@ -2,52 +2,66 @@
 <html>
 
 <head>
+  <link rel="stylesheet" href="index.css">
 
 </head>
 
 <body>
-    <!-- <header>
-        <h1>This cool website</h1>
-        <p>Welcome to my page</p>
-    </header>
+  <!-- <header>
+    <h1>This cool website</h1>
+    <p>Welcome to my page</p>
+  </header>
 
-    <section>
-        <h3>About</h3>
-        <ul>
-            <li>I like food</li>
-            <li>I like games</li>
-        </ul>
-    </section>
+  <section>
+    <h3>About</h3>
+    <ul>
+      <li>I like food</li>
+      <li>I like games</li>
+    </ul>
+  </section>
 
-    <section>
-        <label>Name:</label>
-        <input type="text" placeholder="Maurica" />
-        <label>Email:</label>
-        <input type="text" placeholder="Maurica@Maurica.com" />
-    </section>
+  <section>
+    <label>Name:</label>
+    <input type="text" placeholder="leo" />
+    <label>Email:</label>
+    <input type="text" placeholder="leo@yahoo.com" />
+  </section>
 
-    <button onclick="sayHello()">Click Me</button>
+  <button onclick="sayHello()">Click Me</button>
 
-    <footer>
-        <p>Maurica 2026</p>
-    </footer> -->
-    <section>
-        <label class="name-label">Name:</label>
-        <input id="name-Input" type="text" placeholder="enter name" />
-        <br />
-        <label class="email-label">Email:</label>
-        <input id="email-Input" type="text" placeholder="enter email" />
-        <br />
-        <button onclick="loginHandler()">Login</button>
-            </section>
+  <footer>
+    <p>Leo 2026</p>
+  </footer> -->
 
-            <section>
-                <P id="change-text">Hello I am Maurica</P>
-                <button onclick="changeText()">Change Text</button>
-                <button onclick="changeColor ()">Change Text Color</button>
-            </section>
+  <section>
+    <label class="name-label">Name:</label>
+    <input id="name-input" type="text" placeholder="enter name" />
+    <br />
+    <label class="name-label">Email:</label>
+    <input id="email-input" type="text" placeholder="enter email" />
+    <br />
+    <button onclick="loginHandler()">Login</button>
+  </section>
 
-    <script src="script.js"></script>
+  <section>
+    <p id="change-text">Hello I am text</p>
+    <button onclick="changeText()">Change Text</button>
+    <button onclick="changeColor()">Change Text Color</button>
+  </section>
+
+  <!-- FEB 26 -->
+  <section class="card">
+    <h4>Simple todo app</h4>
+
+    <label for="task">Task:</label>
+    <input type="text" id="task" name="task">
+    <button class="todo-btn" onclick="addTask()">Add Task</button>
+
+    <ul id="taskList">
+    </ul>
+  </section>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
