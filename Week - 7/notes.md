@@ -1,3 +1,4 @@
+
 ## 3/2/26 
 
 ### ChatGPT Prompts
@@ -16,3 +17,13 @@ greater than or equals to, >=
 less than or equals to, <=
 loose check, ==
 strict check, ===
+
+## 3/3/26 
+
+### ChatGPT Prompts
+"i am learning js i need you to help me with things"
+"can you help explain arrays"
+
+### Key Concepts
+arrays/list
+loops
