@@ -13,7 +13,7 @@ if (testPassword === databasePassword) {
   alert("welcome to you account")
 } else {
   alert("Error: wrong information")
-  // }
+  }
   const USER_PASSWORD = "abc123";
   const passwordInput = document.getElementById("password-input");
   const errorMessage = document.getElementById("error");
