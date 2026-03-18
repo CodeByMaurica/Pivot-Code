@@ -1,0 +1,4 @@
+
+function submitQuiz() {
+   alert("test")
+}
