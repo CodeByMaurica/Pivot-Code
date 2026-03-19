@@ -8,5 +8,5 @@ document.getElementById("welcomeMessage").textContent = email;
 }
 
 // check if we are on the home screen
-// get tge variable (parameter)from url
+// get the variable (parameter)from url
 // display it on our page
