@@ -1,0 +1,179 @@
+/* STYLE THE WHOLE PAGE */
+body {
+  margin: 0; /* removes default browser spacing */
+  height: 100vh; /* full screen height */
+  display: flex; /* enables flexbox */
+  justify-content: center; /* center left/right */
+  align-items: flex-start; /* start from top */
+  background-color: #f4f4f4; /* page background */
+  font-family: Arial, sans-serif; /* font style */
+  padding-top: 20px; /* space from top */
+}
+
+/* MAIN DASHBOARD CARD */
+.card {
+  width: 380px; /* card width */
+  background-color: #e9e9e9; /* card background */
+  padding: 20px; /* inside spacing */
+  border-radius: 14px; /* rounded corners */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* shadow */
+}
+
+/* MAIN TITLE */
+h1 {
+  margin: 0 0 10px 0; /* spacing */
+  font-size: 20px; /* title size */
+}
+
+/* WELCOME TEXT */
+.welcome {
+  margin: 0 0 20px 0; /* spacing below */
+  font-weight: bold; /* bold text */
+}
+
+/* SECTION HEADERS */
+h2 {
+  margin: 20px 0 10px 0; /* spacing */
+  font-size: 16px; /* section title size */
+}
+
+/* TASK SECTION */
+.task-section {
+  margin-bottom: 24px; /* space below section */
+}
+
+/* TASK INPUT ROW */
+.task-input-row {
+  display: flex; /* input and button on same line */
+  gap: 8px; /* space between them */
+  margin-bottom: 10px; /* space below row */
+}
+
+/* TASK INPUT */
+.task-input-row input {
+  flex: 1; /* take remaining space */
+  padding: 10px; /* inside spacing */
+  border: 1px solid #bdbdbd; /* border */
+  border-radius: 6px; /* rounded corners */
+  font-size: 14px; /* text size */
+  box-sizing: border-box; /* keeps size correct */
+}
+
+/* ADD TASK BUTTON */
+.task-input-row button {
+  padding: 10px 12px; /* inside spacing */
+  border: none; /* no border */
+  border-radius: 4px; /* rounded corners */
+  background-color: #4f6fe8; /* blue background */
+  color: white; /* white text */
+  cursor: pointer; /* hand cursor */
+  font-size: 12px; /* button text size */
+}
+
+/* TASK COUNT TEXT */
+.task-count {
+  margin: 0 0 10px 0; /* bottom spacing */
+  font-size: 13px; /* smaller text */
+  font-weight: bold; /* bold */
+}
+
+/* TASK LIST */
+.task-list {
+  display: flex; /* flex layout */
+  flex-direction: column; /* stack items downward */
+  gap: 10px; /* space between tasks */
+}
+
+/* SINGLE TASK ITEM */
+.task-item {
+  display: flex; /* text and buttons on same line */
+  justify-content: space-between; /* push apart */
+  align-items: center; /* vertical center */
+  background-color: #dfe1e6; /* task card background */
+  padding: 10px; /* inside spacing */
+  border-radius: 6px; /* rounded corners */
+}
+
+/* TASK TEXT */
+.task-text {
+  font-size: 14px; /* text size */
+  color: #111; /* dark text */
+}
+
+/* COMPLETED TASK STYLE */
+.completed {
+  text-decoration: line-through; /* line through text */
+  color: gray; /* faded text */
+}
+
+/* TASK BUTTON GROUP */
+.task-buttons {
+  display: flex; /* buttons in a row */
+  gap: 6px; /* space between buttons */
+}
+
+/* TASK BUTTONS */
+.task-buttons button {
+  padding: 8px 10px; /* inside spacing */
+  border: none; /* no border */
+  border-radius: 4px; /* rounded corners */
+  background-color: #4f6fe8; /* blue */
+  color: white; /* white text */
+  font-size: 12px; /* smaller text */
+  cursor: pointer; /* hand cursor */
+}
+
+/* QUIZ SECTION */
+.quiz-section {
+  margin-top: 20px; /* adds space above the quiz section */
+  padding-top: 16px; /* space inside the top of quiz section */
+  border-top: 1px solid #d3d3d3; /* light line above the section */
+}
+
+/* QUIZ QUESTION TEXT */
+#questionText {
+  font-size: 14px; /* question text size */
+  margin-bottom: 10px; /* space below the question */
+}
+
+/* QUIZ INPUT */
+#answerInput {
+  width: 100%; /* makes input fill the section width */
+  padding: 10px; /* adds space inside input */
+  border: 1px solid #bdbdbd; /* light gray border */
+  border-radius: 6px; /* rounded corners */
+  box-sizing: border-box; /* keeps width correct */
+  margin-bottom: 10px; /* space below input */
+  font-size: 14px; /* text size */
+}
+
+/* QUIZ BUTTON ROW */
+.quiz-buttons {
+  display: flex; /* puts buttons on one line */
+  gap: 8px; /* space between buttons */
+  margin-bottom: 12px; /* space below buttons */
+}
+
+/* QUIZ BUTTONS */
+.quiz-buttons button {
+  padding: 8px 12px; /* inside spacing */
+  background-color: #4f6fe8; /* blue background */
+  color: white; /* white text */
+  border: none; /* removes border */
+  border-radius: 4px; /* rounded corners */
+  font-size: 12px; /* button text size */
+  cursor: pointer; /* hand cursor */
+}
+
+/* RESULT MESSAGE */
+#resultMessage {
+  min-height: 20px; /* keeps space even when empty */
+  margin: 0 0 8px 0; /* bottom spacing */
+  font-size: 14px; /* text size */
+}
+
+/* SCORE TEXT */
+#scoreText {
+  margin: 0; /* remove default margin */
+  font-size: 14px; /* text size */
+}

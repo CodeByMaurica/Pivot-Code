@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
+
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="dashboard.css" />
+</head>
+<body>
+
+  <!-- MAIN DASHBOARD CARD -->
+  <div class="card">
+
+    <!-- MAIN TITLE -->
+    <h1>Student Success Hub</h1>
+
+    <!-- WELCOME MESSAGE -->
+    <p class="welcome">Welcome, Maurica!</p>
+
+    <!-- TASK SECTION -->
+    <section class="task-section">
+      <!-- TASK SECTION HEADER -->
+      <h2>Task List</h2>
+
+      <!-- INPUT ROW:
+           JavaScript will use these ids to grab the input and button -->
+      <div class="task-input-row">
+        <input type="text" id="taskInput" placeholder="Add a task" />
+        <button id="addTaskBtn">Add Task</button>
+      </div>
+
+      <!-- TASK COUNT:
+           JavaScript will update this number -->
+      <p class="task-count" id="taskCount">Tasks: 0</p>
+
+      <!-- TASK LIST:
+           JavaScript will add new task items inside this container -->
+      <div class="task-list" id="taskList"></div>
+    </section>
+
+  <!-- MINI QUIZ SECTION -->
+<section class="quiz-section">
+  <!-- QUIZ TITLE -->
+  <h2>Mini Quiz</h2>
+
+  <!-- QUIZ QUESTION -->
+  <p id="questionText">What is 2 + 2?</p>
+
+  <!-- ANSWER INPUT -->
+  <input type="text" id="answerInput" placeholder="Type your answer" />
+
+  <!-- QUIZ BUTTONS ROW -->
+  <div class="quiz-buttons">
+    <!-- SUBMIT ANSWER BUTTON -->
+    <button id="submitAnswerBtn">Submit Answer</button>
+
+    <!-- NEXT QUESTION BUTTON -->
+    <button id="nextQuestionBtn">Next Question</button>
+  </div>
+
+  <!-- RESULT MESSAGE -->
+  <p id="resultMessage"></p>
+
+  <!-- SCORE TEXT -->
+  <p id="scoreText">Score: 0</p>
+</section>
+
+  </div>
+
+  <!-- Link to external JavaScript -->
+  <script src="dashboard.js"></script>
+</body>
+</html>
