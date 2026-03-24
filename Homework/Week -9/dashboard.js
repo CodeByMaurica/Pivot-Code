@@ -198,14 +198,28 @@ function checkAnswer() {
 
 // FUNCTION TO GO TO THE NEXT QUESTION
 function nextQuestion() {
-  // move to the next question number
+
+  // increase the question index by 1
+  // (moves to the next question in the array)
   currentQuestionIndex++;
 
-  // if we go past the last question, go back to first
+  // check if we went past the last question
   if (currentQuestionIndex >= quizQuestions.length) {
+
+    // if yes, reset back to the first question (index 0)
     currentQuestionIndex = 0;
   }
 
-  // show the new question
+  // display the new current question on the screen
   showQuestion();
 }
+
+
+// ---- LOGOUT FUNCTION ----
+function logout() {
+
+  // redirect the user to the login page
+  // (this should be your login file, not dashboard)
+  window.location.href = "index.html";
+}
+
