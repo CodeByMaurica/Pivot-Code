@@ -2,36 +2,32 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Local Storage</title>
-    <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Storage</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- Text input where the user types their name -->
-<input type="text" id="username" placeholder="Enter name">
 
-<!-- Password input (text is hidden when typing) -->
-<input type="password" id="password" placeholder="Enter password">
+  <input type="text" id="username" placeholder="Enter name">
+  <input type="password" id="password" placeholder="Enter password">
+  <button onclick="login()">Login</button>
 
-<!-- Button that runs the checkLogin function when clicked -->
-<button onclick="Login()">Login</button>
+  <p id="result"></p>
 
-<p id="result"></p> <!-- This is where the message shows -->
-<button id="logoutBtn" onclick="Logout()" style="display:none;">Logout</button>
- </body>
-</html>
-   
-     <script src="index.js"></script>
-    <script src="storage.js"></script>
+  <button onclick="logout()">Logout</button>
+ 
+  <script src="index.js"></script>
+  <script src="storage.js"></script>
+  <script src="object.js"></script>
+</body>
 
 </html>
-
-<!--
-- user will type in a name and password
+<!--  
+- user will type in a name and password,
 - we will store that in storage
-- if there logged in show text " Welcome"
+- if there logged in show text "Welcome"
 - when the page is refreshed check the storage and stay logged in
-- logout button (clear storage) 
+- logout button (clear storage/erase memory)
 -->
